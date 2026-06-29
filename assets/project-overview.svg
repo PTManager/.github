@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="780" viewBox="0 0 1200 780" role="img" aria-labelledby="title desc">
+  <title id="title">PTManager 프로젝트 소개 및 핵심 기능</title>
+  <desc id="desc">단톡방과 종이 근무표로 분산된 소규모 매장의 업무를 PTManager가 하나로 연결합니다. 대타, QR 근태, 스케줄, 매장 운영 기능을 직원과 사장이 공유합니다.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FAFF"/>
+      <stop offset="1" stop-color="#EEF3FF"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3767E8"/>
+      <stop offset="1" stop-color="#634BD8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#20366F" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M1 1l10 5-10 5z" fill="#7181A8"/>
+    </marker>
+    <style>
+      text { font-family: Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", Arial, sans-serif; }
+      .eyebrow { font-size: 16px; font-weight: 700; letter-spacing: 2px; fill: #5A70AA; }
+      .heading { font-size: 32px; font-weight: 800; fill: #17213C; }
+      .label { font-size: 14px; font-weight: 800; letter-spacing: 1px; fill: #5A70AA; }
+      .title { font-size: 22px; font-weight: 800; fill: #17213C; }
+      .copy { font-size: 15px; font-weight: 500; fill: #697795; }
+      .brand-title { font-size: 27px; font-weight: 800; fill: #FFFFFF; }
+      .brand-copy { font-size: 15px; font-weight: 500; fill: #E7EBFF; }
+      .chip { font-size: 13px; font-weight: 700; fill: #455985; }
+      .flow { fill: none; stroke: #7181A8; stroke-width: 3; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="780" rx="28" fill="url(#background)"/>
+  <text x="70" y="62" class="eyebrow">WHY PTMANAGER</text>
+  <text x="70" y="104" class="heading">흩어진 매장 업무를 하나의 흐름으로</text>
+  <text x="1130" y="93" text-anchor="end" class="copy">소규모 매장을 위한 근무 관리</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="144" width="290" height="160" rx="22" fill="#FFFFFF"/>
+    <text x="100" y="178" class="label">BEFORE</text>
+    <circle cx="112" cy="220" r="21" fill="#FFF2E8"/>
+    <path d="M101 216h22v14h-13l-7 6 2-6h-4z" fill="none" stroke="#F57C00" stroke-width="3" stroke-linejoin="round"/>
+    <text x="146" y="218" class="title" style="font-size:18px">단톡방</text>
+    <text x="146" y="241" class="copy">대타 요청과 공지가 묻힘</text>
+    <circle cx="112" cy="270" r="21" fill="#FFF2E8"/>
+    <path d="M101 257h22v26h-22zm5 7h12m-12 6h12m-12 6h8" fill="none" stroke="#F57C00" stroke-width="2.5"/>
+    <text x="146" y="268" class="title" style="font-size:18px">종이 근무표</text>
+    <text x="146" y="291" class="copy">변경 공유가 어려움</text>
+
+    <rect x="455" y="144" width="290" height="160" rx="22" fill="url(#brand)"/>
+    <text x="600" y="184" text-anchor="middle" class="brand-copy" style="font-weight:700;letter-spacing:1px">ONE APP</text>
+    <text x="600" y="229" text-anchor="middle" class="brand-title">PTManager</text>
+    <text x="600" y="259" text-anchor="middle" class="brand-copy">대타 · 근태 · 스케줄 · 소통</text>
+    <rect x="532" y="272" width="136" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.16"/>
+    <text x="600" y="290" text-anchor="middle" class="brand-copy" style="font-size:13px;font-weight:700">직원 + 사장</text>
+
+    <rect x="840" y="144" width="290" height="160" rx="22" fill="#FFFFFF"/>
+    <text x="870" y="178" class="label">AFTER</text>
+    <circle cx="985" cy="223" r="30" fill="#EAF1FF"/>
+    <path d="M970 233c2-11 8-17 15-17s13 6 15 17M985 211a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" fill="none" stroke="#4169E1" stroke-width="4" stroke-linecap="round"/>
+    <path d="M962 246h46" stroke="#7F52FF" stroke-width="4" stroke-linecap="round"/>
+    <text x="985" y="276" text-anchor="middle" class="title" style="font-size:18px">실시간 공유</text>
+    <text x="985" y="297" text-anchor="middle" class="copy">역할에 맞는 화면으로 확인</text>
+  </g>
+
+  <path class="flow" d="M374 224H433"/>
+  <path class="flow" d="M759 224H818"/>
+
+  <text x="70" y="363" class="label">CORE FEATURES</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="390" width="520" height="130" rx="22" fill="#FFFFFF"/>
+    <circle cx="124" cy="440" r="28" fill="#F0EBFF"/>
+    <path d="M110 440h28m-7-8 7 8-7 8m-14-24-7 8 7 8" fill="none" stroke="#6D48DB" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="170" y="430" class="title">대타 워크플로우</text>
+    <text x="170" y="457" class="copy">결원을 명확한 상태로 처리</text>
+    <g transform="translate(170 474)">
+      <rect width="74" height="28" rx="14" fill="#F0EBFF"/>
+      <text x="37" y="19" text-anchor="middle" class="chip">요청</text>
+      <path d="M84 14h20" stroke="#9BA8C5" stroke-width="2"/>
+      <path d="M99 9l7 5-7 5" fill="none" stroke="#9BA8C5" stroke-width="2"/>
+      <rect x="112" width="74" height="28" rx="14" fill="#F0EBFF"/>
+      <text x="149" y="19" text-anchor="middle" class="chip">지원</text>
+      <path d="M196 14h20" stroke="#9BA8C5" stroke-width="2"/>
+      <path d="M211 9l7 5-7 5" fill="none" stroke="#9BA8C5" stroke-width="2"/>
+      <rect x="224" width="74" height="28" rx="14" fill="#F0EBFF"/>
+      <text x="261" y="19" text-anchor="middle" class="chip">승인</text>
+    </g>
+
+    <rect x="610" y="390" width="520" height="130" rx="22" fill="#FFFFFF"/>
+    <circle cx="664" cy="440" r="28" fill="#E9FBF2"/>
+    <path d="M650 426h28v28h-28zm5 5h5v5h-5zm13 0h5v5h-5zm-13 13h5v5h-5zm10-3h8v8h-8z" fill="none" stroke="#20A965" stroke-width="3"/>
+    <text x="710" y="430" class="title">QR 근태</text>
+    <text x="710" y="457" class="copy">전용 하드웨어 없이 출퇴근 기록</text>
+    <text x="710" y="492" class="chip">QR 스캔  →  출근 체크  →  기록 저장</text>
+
+    <rect x="70" y="540" width="520" height="130" rx="22" fill="#FFFFFF"/>
+    <circle cx="124" cy="590" r="28" fill="#EAF1FF"/>
+    <rect x="109" y="576" width="30" height="28" rx="4" fill="none" stroke="#4169E1" stroke-width="3"/>
+    <path d="M109 584h30m-22-14v12m14-12v12m-14 10h4m6 0h4m-14 7h4m6 0h4" stroke="#4169E1" stroke-width="3" stroke-linecap="round"/>
+    <text x="170" y="580" class="title">스케줄 공유</text>
+    <text x="170" y="607" class="copy">편성부터 변경 확인까지 한곳에서</text>
+    <text x="170" y="642" class="chip">사장 편성  ↔  직원 확인  ·  변경 즉시 반영</text>
+
+    <rect x="610" y="540" width="520" height="130" rx="22" fill="#FFFFFF"/>
+    <circle cx="664" cy="590" r="28" fill="#FFF2E8"/>
+    <path d="M650 601h28M654 601v-14h6v14m5 0v-24h6v24m5 0v-9h6v9" fill="none" stroke="#F57C00" stroke-width="3" stroke-linejoin="round"/>
+    <text x="710" y="580" class="title">매장 운영</text>
+    <text x="710" y="607" class="copy">소통과 현황을 한눈에</text>
+    <text x="710" y="642" class="chip">공지  ·  인수인계  ·  근태 통계  ·  인건비</text>
+  </g>
+
+  <g transform="translate(185 708)">
+    <circle cx="8" cy="8" r="8" fill="#3DDC84"/>
+    <path d="M4 8l3 3 5-6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="28" y="13" class="copy" style="font-weight:700">하드웨어 없이 시작</text>
+    <circle cx="348" cy="8" r="8" fill="#3DDC84"/>
+    <path d="M344 8l3 3 5-6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="368" y="13" class="copy" style="font-weight:700">사장 1인 운영에 최적화</text>
+    <circle cx="700" cy="8" r="8" fill="#3DDC84"/>
+    <path d="M696 8l3 3 5-6" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="720" y="13" class="copy" style="font-weight:700">직원·사장 역할별 화면</text>
+  </g>
+</svg>
