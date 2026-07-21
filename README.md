@@ -23,13 +23,13 @@
 ## 프로젝트 소개 · 핵심 기능
 
 <p align="center">
-  <img src="../assets/project-overview.svg" width="100%" alt="PTManager 프로젝트 소개 및 핵심 기능"/>
+  <img src="assets/project-overview.svg" width="100%" alt="PTManager 프로젝트 소개 및 핵심 기능"/>
 </p>
 
 ## 시스템 아키텍처
 
 <p align="center">
-  <img src="../assets/architecture.svg" width="100%" alt="PTManager 시스템 아키텍처"/>
+  <img src="assets/architecture.svg" width="100%" alt="PTManager 시스템 아키텍처"/>
 </p>
 
 두 앱의 공통 비즈니스 로직과 데이터를 하나의 백엔드에서 관리해 중복 개발을 줄이고 데이터 일관성을 유지했습니다.
@@ -42,13 +42,13 @@
 
 | 홈 | 스케줄 | 소통 | 통계 | 마이 |
 |---|---|---|---|---|
-| <img src="../assets/EmployeeApp/01_home.png" width="180" alt="직원용 앱 홈 화면"/> | <img src="../assets/EmployeeApp/02_schedule.png" width="180" alt="직원용 앱 스케줄 화면"/> | <img src="../assets/EmployeeApp/03_communication.png" width="180" alt="직원용 앱 소통 화면"/> | <img src="../assets/EmployeeApp/04_stats.png" width="180" alt="직원용 앱 통계 화면"/> | <img src="../assets/EmployeeApp/05_my.png" width="180" alt="직원용 앱 마이 화면"/> |
+| <img src="assets/EmployeeApp/01_home.png" width="180" alt="직원용 앱 홈 화면"/> | <img src="assets/EmployeeApp/02_schedule.png" width="180" alt="직원용 앱 스케줄 화면"/> | <img src="assets/EmployeeApp/03_communication.png" width="180" alt="직원용 앱 소통 화면"/> | <img src="assets/EmployeeApp/04_stats.png" width="180" alt="직원용 앱 통계 화면"/> | <img src="assets/EmployeeApp/05_my.png" width="180" alt="직원용 앱 마이 화면"/> |
 
 ### 사장용 앱
 
 | 홈 | 스케줄 | 소통 | 통계 | 마이 |
 |---|---|---|---|---|
-| <img src="../assets/EmployerApp/01_home.png" width="180" alt="사장용 앱 홈 화면"/> | <img src="../assets/EmployerApp/02_schedule.png" width="180" alt="사장용 앱 스케줄 화면"/> | <img src="../assets/EmployerApp/03_communication.png" width="180" alt="사장용 앱 소통 화면"/> | <img src="../assets/EmployerApp/04_stats.png" width="180" alt="사장용 앱 통계 화면"/> | <img src="../assets/EmployerApp/05_my.png" width="180" alt="사장용 앱 마이 화면"/> |
+| <img src="assets/EmployerApp/01_home.png" width="180" alt="사장용 앱 홈 화면"/> | <img src="assets/EmployerApp/02_schedule.png" width="180" alt="사장용 앱 스케줄 화면"/> | <img src="assets/EmployerApp/03_communication.png" width="180" alt="사장용 앱 소통 화면"/> | <img src="assets/EmployerApp/04_stats.png" width="180" alt="사장용 앱 통계 화면"/> | <img src="assets/EmployerApp/05_my.png" width="180" alt="사장용 앱 마이 화면"/> |
 
 ## 팀 구성
 
